@@ -1,0 +1,177 @@
+{
+    "monday": [
+        {
+            "task_name": "Brisk Walking",
+            "begin_time": "07:00",
+            "end_time": "07:45",
+            "task_color": "#ff0000"
+        },
+        {
+            "task_name": "Healthy Breakfast",
+            "begin_time": "08:00",
+            "end_time": "08:30",
+            "task_color": "#00ff00"
+        },
+        {
+            "task_name": "Work",
+            "begin_time": "09:00",
+            "end_time": "12:30",
+            "task_color": "#ff00ff"
+        },
+        {
+            "task_name": "Lunch",
+            "begin_time": "12:30",
+            "end_time": "13:30",
+            "task_color": "#00ffff"
+        },
+        {
+            "task_name": "Work",
+            "begin_time": "13:30",
+            "end_time": "18:00",
+            "task_color": "#ff00ff"
+        }
+    ],
+    "tuesday": [
+        {
+            "task_name": "Work",
+            "begin_time": "09:00",
+            "end_time": "12:30",
+            "task_color": "#ff00ff"
+        },
+        {
+            "task_name": "Lunch",
+            "begin_time": "12:30",
+            "end_time": "13:30",
+            "task_color": "#00ffff"
+        },
+        {
+            "task_name": "Work",
+            "begin_time": "13:30",
+            "end_time": "18:00",
+            "task_color": "#ff00ff"
+        },
+        {
+            "task_name": "Home Gym Workout",
+            "begin_time": "18:30",
+            "end_time": "19:00",
+            "task_color": "#0000ff"
+        },
+        {
+            "task_name": "Healthy Dinner",
+            "begin_time": "19:30",
+            "end_time": "20:00",
+            "task_color": "#00ff00"
+        }
+    ],
+    "wednesday": [
+        {
+            "task_name": "Brisk Walking",
+            "begin_time": "07:00",
+            "end_time": "07:45",
+            "task_color": "#ff0000"
+        },
+        {
+            "task_name": "Healthy Breakfast",
+            "begin_time": "08:00",
+            "end_time": "08:30",
+            "task_color": "#00ff00"
+        },
+        {
+            "task_name": "Work",
+            "begin_time": "09:00",
+            "end_time": "12:30",
+            "task_color": "#ff00ff"
+        },
+        {
+            "task_name": "Lunch",
+            "begin_time": "12:30",
+            "end_time": "13:30",
+            "task_color": "#00ffff"
+        },
+        {
+            "task_name": "Work",
+            "begin_time": "13:30",
+            "end_time": "18:00",
+            "task_color": "#ff00ff"
+        }
+    ],
+    "thursday": [
+        {
+            "task_name": "Work",
+            "begin_time": "09:00",
+            "end_time": "12:30",
+            "task_color": "#ff00ff"
+        },
+        {
+            "task_name": "Lunch",
+            "begin_time": "12:30",
+            "end_time": "13:30",
+            "task_color": "#00ffff"
+        },
+        {
+            "task_name": "Work",
+            "begin_time": "13:30",
+            "end_time": "18:00",
+            "task_color": "#ff00ff"
+        },
+        {
+            "task_name": "Home Gym Workout",
+            "begin_time": "18:30",
+            "end_time": "19:00",
+            "task_color": "#0000ff"
+        },
+        {
+            "task_name": "Healthy Dinner",
+            "begin_time": "19:30",
+            "end_time": "20:00",
+            "task_color": "#00ff00"
+        }
+    ],
+    "friday": [
+        {
+            "task_name": "Brisk Walking",
+            "begin_time": "07:00",
+            "end_time": "07:45",
+            "task_color": "#ff0000"
+        },
+        {
+            "task_name": "Healthy Breakfast",
+            "begin_time": "08:00",
+            "end_time": "08:30",
+            "task_color": "#00ff00"
+        },
+        {
+            "task_name": "Work",
+            "begin_time": "09:00",
+            "end_time": "12:30",
+            "task_color": "#ff00ff"
+        },
+        {
+            "task_name": "Lunch",
+            "begin_time": "12:30",
+            "end_time": "13:30",
+            "task_color": "#00ffff"
+        },
+        {
+            "task_name": "Work",
+            "begin_time": "13:30",
+            "end_time": "18:00",
+            "task_color": "#ff00ff"
+        }
+    ],
+    "saturday": [
+        {
+            "task_name": "Flexibility & Balance",
+            "begin_time": "10:00",
+            "end_time": "10:30",
+            "task_color": "#00ffff"
+        },
+        {
+            "task_name": "Healthy Brunch",
+            "begin_time": "11:00",
+            "end_time": "11:30",
+            "task_color": "#00ff00"
+        }
+    ],
+    "sunday": []
+}
