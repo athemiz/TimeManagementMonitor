@@ -1,0 +1,7 @@
+token.pickle
+__pycache__/google_calendar.cpython-310.pyc
+__pycache__/task_data.cpython-310.pyc
+__pycache__/task_manager_monitor.cpython-310.pyc
+__pycache__/tooltip.cpython-310.pyc
+__pycache__/utils.cpython-310.pyc
+credentials.json

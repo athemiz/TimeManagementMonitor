@@ -15,7 +15,7 @@ def get_credentials():
 
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
-            creds = creds.refresh(Request())
+            creds.refresh(Request())
             with open(token_path, 'wb') as token: 
                 pickle.dump(creds, token)
         else:
@@ -27,9 +27,11 @@ def get_credentials():
 
 def get_events_for_today():
     try:
-        creds, service = get_credentials(), build('calendar', 'v3', credentials=get_credentials())
-        tz, now_utc3 = pytz.timezone("Etc/GMT+3"), datetime.now(pytz.timezone("Etc/GMT+3"))
-        start_of_day, end_of_day = now_utc3.replace(hour=0, minute=0, second=0, microsecond=0).isoformat(), now_utc3.replace(hour=23, minute=59, second=59, microsecond=999999).isoformat()
+        service = build('calendar', 'v3', credentials=get_credentials())
+        tz = pytz.timezone("Etc/GMT+3")
+        now_utc3 = datetime.now(tz)
+        start_of_day = now_utc3.replace(hour=0, minute=0, second=0, microsecond=0).isoformat() 
+        end_of_day = now_utc3.replace(hour=23, minute=59, second=59, microsecond=999999).isoformat()
         events = service.events().list(calendarId='primary', timeMin=start_of_day, timeMax=end_of_day, singleEvents=True, orderBy='startTime', showDeleted=False).execute().get('items', [])
         return [(e['summary'], e['start'].get('dateTime', e['start'].get('date')), e['end'].get('dateTime', e['end'].get('date'))) for e in events if e['status'] != 'cancelled'] if events else None
     except HttpError as error: print(f'An error occurred: {error}'); return None
